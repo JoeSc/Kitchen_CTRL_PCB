@@ -1,0 +1,171 @@
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 02 Oct 2012 09:26:14 PM CDT
+
+BeginCmp
+TimeStamp = /5068AAA1;
+Reference = C101;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068AAAE;
+Reference = C102;
+ValeurCmp = C;
+IdModule  = SM1210;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068AAB4;
+Reference = C103;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068AABA;
+Reference = C104;
+ValeurCmp = C;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A47B;
+Reference = D10;
+ValeurCmp = ZENER;
+IdModule  = SOD123;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A392;
+Reference = P1;
+ValeurCmp = CONN_5;
+IdModule  = TE_AMP_CT_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A385;
+Reference = P2;
+ValeurCmp = CONN_5;
+IdModule  = TE_AMP_CT_5;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A317;
+Reference = P10;
+ValeurCmp = CONN_2;
+IdModule  = JST_PH_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A311;
+Reference = P11;
+ValeurCmp = CONN_2;
+IdModule  = JST_PH_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A30B;
+Reference = P13;
+ValeurCmp = CONN_2;
+IdModule  = JST_PH_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A305;
+Reference = P14;
+ValeurCmp = CONN_2;
+IdModule  = JST_PH_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A2FF;
+Reference = P16;
+ValeurCmp = CONN_2;
+IdModule  = JST_PH_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A2F2;
+Reference = P17;
+ValeurCmp = CONN_2;
+IdModule  = JST_PH_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A31F;
+Reference = P20;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A32C;
+Reference = P21;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A332;
+Reference = P22;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A344;
+Reference = P30;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A33E;
+Reference = P31;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A338;
+Reference = P32;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A453;
+Reference = Q10;
+ValeurCmp = SI2308BDS;
+IdModule  = SOT23GDS;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A46C;
+Reference = R10;
+ValeurCmp = 100K;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /5068A7AB;
+Reference = R11;
+ValeurCmp = 0-ohm;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /506901CC;
+Reference = R102;
+ValeurCmp = 0-ohm;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /506901D9;
+Reference = R103;
+ValeurCmp = 0-ohm;
+IdModule  = SM1206;
+EndCmp
+
+EndListe

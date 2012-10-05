@@ -1,0 +1,222 @@
+# EESchema Netlist Version 1.1 created  Tue 02 Oct 2012 09:16:51 PM CDT
+(
+ ( /5068A2F2 $noname  P17 CONN_2 {Lib=CONN_2}
+  (    1 N-000004 )
+  (    2 GND )
+ )
+ ( /5068A2FF $noname  P16 CONN_2 {Lib=CONN_2}
+  (    1 N-000003 )
+  (    2 GND )
+ )
+ ( /5068A305 $noname  P14 CONN_2 {Lib=CONN_2}
+  (    1 /LED_STRIP_12V )
+  (    2 /LED_STRIP_GND )
+ )
+ ( /5068A30B $noname  P13 CONN_2 {Lib=CONN_2}
+  (    1 /LED_STRIP_12V )
+  (    2 /LED_STRIP_GND )
+ )
+ ( /5068A311 $noname  P11 CONN_2 {Lib=CONN_2}
+  (    1 +24V )
+  (    2 /LED_STRIP_12V )
+ )
+ ( /5068A317 $noname  P10 CONN_2 {Lib=CONN_2}
+  (    1 +24V )
+  (    2 /LED_STRIP_12V )
+ )
+ ( /5068A31F $noname  P20 CONN_1 {Lib=CONN_1}
+  (    1 /R_IN )
+ )
+ ( /5068A32C $noname  P21 CONN_1 {Lib=CONN_1}
+  (    1 /G_IN )
+ )
+ ( /5068A332 $noname  P22 CONN_1 {Lib=CONN_1}
+  (    1 /B_IN )
+ )
+ ( /5068A338 $noname  P32 CONN_1 {Lib=CONN_1}
+  (    1 /B_OUT )
+ )
+ ( /5068A33E $noname  P31 CONN_1 {Lib=CONN_1}
+  (    1 /G_OUT )
+ )
+ ( /5068A344 $noname  P30 CONN_1 {Lib=CONN_1}
+  (    1 /R_OUT )
+ )
+ ( /5068A385 $noname  P2 CONN_5 {Lib=CONN_5}
+  (    1 /R_OUT )
+  (    2 /G_OUT )
+  (    3 /B_OUT )
+  (    4 +24V )
+  (    5 GND )
+ )
+ ( /5068A392 $noname  P1 CONN_5 {Lib=CONN_5}
+  (    1 GND )
+  (    2 +24V )
+  (    3 /B_IN )
+  (    4 /G_IN )
+  (    5 /R_IN )
+ )
+ ( /5068A453 $noname  Q10 SI2308BDS {Lib=MOSFET_N}
+  (    D /LED_STRIP_GND )
+  (    G /SW )
+  (    S GND )
+ )
+ ( /5068A46C $noname  R10 100K {Lib=R}
+  (    1 +24V )
+  (    2 N-000004 )
+ )
+ ( /5068A47B $noname  D10 ZENER {Lib=ZENER}
+  (    1 GND )
+  (    2 /SW )
+ )
+ ( /5068A7AB $noname  R11 0-ohm {Lib=R}
+  (    1 /SW )
+  (    2 /LED_STRIP_GND )
+ )
+ ( /5068AAA1 $noname  C101 C {Lib=C}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5068AAAE $noname  C102 C {Lib=C}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5068AAB4 $noname  C103 C {Lib=C}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5068AABA $noname  C104 C {Lib=C}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /506901CC $noname  R102 0-ohm {Lib=R}
+  (    1 /SW )
+  (    2 N-000003 )
+ )
+ ( /506901D9 $noname  R103 0-ohm {Lib=R}
+  (    1 N-000003 )
+  (    2 N-000004 )
+ )
+)
+*
+{ Allowed footprints by component:
+$component R10
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component D10
+ D?
+ SO*
+ SM*
+$endlist
+$component R11
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component C101
+ SM*
+ C?
+ C1-1
+$endlist
+$component C102
+ SM*
+ C?
+ C1-1
+$endlist
+$component C103
+ SM*
+ C?
+ C1-1
+$endlist
+$component C104
+ SM*
+ C?
+ C1-1
+$endlist
+$component R102
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$component R103
+ R?
+ SM0603
+ SM0805
+ R?-*
+ SM1206
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "GND" "GND"
+ P1 1
+ Q10 S
+ P2 5
+ C101 2
+ P17 2
+ P16 2
+ C103 2
+ C104 2
+ C102 2
+ D10 1
+Net 2 "+24V" "+24V"
+ R10 1
+ P11 1
+ C101 1
+ P10 1
+ P2 4
+ C103 1
+ C104 1
+ C102 1
+ P1 2
+Net 3 "" ""
+ R103 1
+ R102 2
+ P16 1
+Net 4 "" ""
+ R10 2
+ R103 2
+ P17 1
+Net 5 "/G_IN" "G_IN"
+ P21 1
+ P1 4
+Net 6 "/R_OUT" "R_OUT"
+ P2 1
+ P30 1
+Net 7 "/B_OUT" "B_OUT"
+ P32 1
+ P2 3
+Net 8 "/LED_STRIP_GND" "LED_STRIP_GND"
+ Q10 D
+ P14 2
+ R11 2
+ P13 2
+Net 9 "/SW" "SW"
+ R11 1
+ Q10 G
+ D10 2
+ R102 1
+Net 10 "/G_OUT" "G_OUT"
+ P2 2
+ P31 1
+Net 11 "/B_IN" "B_IN"
+ P22 1
+ P1 3
+Net 12 "/R_IN" "R_IN"
+ P20 1
+ P1 5
+Net 13 "/LED_STRIP_12V" "LED_STRIP_12V"
+ P10 2
+ P11 2
+ P13 1
+ P14 1
+}
+#End
