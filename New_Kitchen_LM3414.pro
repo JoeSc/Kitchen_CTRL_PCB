@@ -1,6 +1,6 @@
-update=Wed 03 Oct 2012 07:15:27 PM CDT
+update=Fri 05 Oct 2012 09:29:18 PM CDT
 version=1
-last_client=cvpcb
+last_client=pcbnew
 [general]
 version=1
 [eeschema]
@@ -50,12 +50,17 @@ LibName32=/home/jschaack/Desktop/Kicad_Libraries/XBEE/modules_droids
 LibName33=/home/jschaack/Desktop/Kicad_Libraries/MicropendousX-1343-cache
 LibName34=/home/jschaack/Desktop/LM3414_devel/lm3414
 LibName35=/home/jschaack/Desktop/LM3414_devel/LM-cache
+[cvpcb]
+version=1
+NetIExt=net
+[cvpcb/libraries]
+EquName1=devcms
 [pcbnew]
 version=1
-LastNetListRead=
+LastNetListRead=New_Kitchen_LM3414.net
 PadDrlX=0
-PadDimH=374
-PadDimV=846
+PadDimH=787
+PadDimV=945
 BoardThickness=630
 TxtPcbV=800
 TxtPcbH=600
@@ -68,6 +73,7 @@ EdgeLar=150
 TxtLar=120
 MSegLar=150
 [pcbnew/libraries]
+LibDir=
 LibName1=sockets
 LibName2=connect
 LibName3=discret
@@ -79,13 +85,4 @@ LibName8=led
 LibName9=dip_sockets
 LibName10=pga_sockets
 LibName11=valves
-LibName12=/home/jschaack/Desktop/LM3414_devel/ePSOP8
-LibName13=/home/jschaack/Desktop/Kicad_Libraries/XBEE/XBee
-LibName14=/home/jschaack/Desktop/Kicad_Libraries/Joes
-LibName15=/home/jschaack/Desktop/LQFP48
-LibDir=
-[cvpcb]
-version=1
-NetIExt=net
-[cvpcb/libraries]
-EquName1=devcms
+LibName12=/home/jschaack/Documents/Kicad_Library/Joes
