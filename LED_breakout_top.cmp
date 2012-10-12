@@ -1,93 +1,93 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Tue 02 Oct 2012 09:26:14 PM CDT
+Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Tue 09 Oct 2012 10:02:20 PM CDT
 
 BeginCmp
-TimeStamp = /5068AAA1;
+TimeStamp = /5074D9D8;
 Reference = C101;
-ValeurCmp = C;
-IdModule  = SM1210;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068AAAE;
+TimeStamp = /5074DA16;
 Reference = C102;
-ValeurCmp = C;
-IdModule  = SM1210;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068AAB4;
+TimeStamp = /5074DABB;
 Reference = C103;
-ValeurCmp = C;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068AABA;
+TimeStamp = /5074DAEC;
 Reference = C104;
-ValeurCmp = C;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A47B;
+TimeStamp = /5074E770;
 Reference = D10;
-ValeurCmp = ZENER;
+ValeurCmp = DIODE_ZENER_9P1V;
 IdModule  = SOD123;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A392;
+TimeStamp = /5074F3B0;
 Reference = P1;
-ValeurCmp = CONN_5;
-IdModule  = TE_AMP_CT_5;
+ValeurCmp = CONN_TE_CT_5;
+IdModule  = CONN_TE_CT_5_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A385;
+TimeStamp = /5074F3C8;
 Reference = P2;
-ValeurCmp = CONN_5;
-IdModule  = TE_AMP_CT_5;
+ValeurCmp = CONN_TE_CT_5;
+IdModule  = CONN_TE_CT_5_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A317;
+TimeStamp = /5074E11A;
 Reference = P10;
-ValeurCmp = CONN_2;
+ValeurCmp = CONN_JST_PH_2;
 IdModule  = JST_PH_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A311;
+TimeStamp = /5074E138;
 Reference = P11;
-ValeurCmp = CONN_2;
+ValeurCmp = CONN_JST_PH_2;
 IdModule  = JST_PH_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A30B;
+TimeStamp = /5074E15D;
 Reference = P13;
-ValeurCmp = CONN_2;
+ValeurCmp = CONN_JST_PH_2;
 IdModule  = JST_PH_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A305;
+TimeStamp = /5074E16A;
 Reference = P14;
-ValeurCmp = CONN_2;
+ValeurCmp = CONN_JST_PH_2;
 IdModule  = JST_PH_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A2FF;
+TimeStamp = /5074E177;
 Reference = P16;
-ValeurCmp = CONN_2;
+ValeurCmp = CONN_JST_PH_2;
 IdModule  = JST_PH_2;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A2F2;
+TimeStamp = /5074E184;
 Reference = P17;
-ValeurCmp = CONN_2;
+ValeurCmp = CONN_JST_PH_2;
 IdModule  = JST_PH_2;
 EndCmp
 
@@ -134,37 +134,37 @@ IdModule  = PINTST;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A453;
+TimeStamp = /5074EFD5;
 Reference = Q10;
-ValeurCmp = SI2308BDS;
+ValeurCmp = MOS_N_SI2308BDS;
 IdModule  = SOT23GDS;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A46C;
+TimeStamp = /5074DCF6;
 Reference = R10;
-ValeurCmp = 100K;
+ValeurCmp = RES_100K_1P_1V8W_0805;
 IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /5068A7AB;
+TimeStamp = /5074DD45;
 Reference = R11;
-ValeurCmp = 0-ohm;
+ValeurCmp = RES_0_0P_1V4_1206;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /506901CC;
+TimeStamp = /5074DD76;
 Reference = R102;
-ValeurCmp = 0-ohm;
+ValeurCmp = RES_0_0P_1V4_1206;
 IdModule  = SM1206;
 EndCmp
 
 BeginCmp
-TimeStamp = /506901D9;
+TimeStamp = /5074DDA7;
 Reference = R103;
-ValeurCmp = 0-ohm;
+ValeurCmp = RES_0_0P_1V4_1206;
 IdModule  = SM1206;
 EndCmp
 
