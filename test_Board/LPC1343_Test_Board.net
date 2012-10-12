@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Thu 11 Oct 2012 02:05:17 PM CDT
+# EESchema Netlist Version 1.1 created  Thu 11 Oct 2012 08:56:24 PM CDT
 (
  ( /50665184 $noname  Q102 MOSFET_P {Lib=MOSFET_P}
   (    D /UC_D_PU )
@@ -16,14 +16,6 @@
  )
  ( /50703E67 $noname  HW103 CONN_1 {Lib=CONN_1}
   (    1 ? )
- )
- ( /50743CD0 $noname  D6 WHITE {Lib=LED}
-  (    1 /WW_DIM )
-  (    2 N-000072 )
- )
- ( /50743CDD $noname  D7 WHITE {Lib=LED}
-  (    1 /WW2_DIM )
-  (    2 N-000071 )
  )
  ( /50744376 $noname  RV3 POT {Lib=POT}
   (    1 GND )
@@ -75,7 +67,7 @@
  )
  ( /5075CA06 $noname  D3 LED_GREEN_DIFF_0805 {Lib=LED_GREEN_DIFF_0805}
   (    1 RELAY_EN )
-  (    2 N-000069 )
+  (    2 N-000068 )
  )
  ( /5075CE30 $noname  C101 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
   (    1 +3.3V )
@@ -151,7 +143,7 @@
  )
  ( /5075DC37 $noname  D4 LED_BLUE_0805 {Lib=LED_BLUE_0805}
   (    1 N-000076 )
-  (    2 N-000054 )
+  (    2 N-000050 )
  )
  ( /5075DC54 $noname  D105 LED_YELLOW_0805 {Lib=LED_YELLOW_0805}
   (    1 /SER_TX_LED_R )
@@ -246,7 +238,7 @@
   (    2 /GRN_DIM )
  )
  ( /5075D4FF $noname  R8 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
-  (    1 N-000066 )
+  (    1 N-000061 )
   (    2 /BLU_DIM )
  )
  ( /5075D50A $noname  R10 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
@@ -255,7 +247,7 @@
  )
  ( /5075D515 $noname  R9 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
   (    1 GND )
-  (    2 N-000072 )
+  (    2 N-000070 )
  )
  ( /5075F198 $noname  R1 RES_1K_1P_1V8W_0805 {Lib=RES_1K_1P_1V8W_0805}
   (    1 +3.3V )
@@ -292,7 +284,7 @@
   (   14 ? )
   (   15 /SER_USB_D )
   (   16 /~SER_USB_D )
-  (   17 N-000034 )
+  (   17 N-000035 )
   (   18 GND )
   (   19 /~SER_RST )
   (   20 +5V )
@@ -305,7 +297,7 @@
   (   28 ? )
  )
  ( /507617D1 $noname  C1001 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
-  (    1 N-000034 )
+  (    1 N-000035 )
   (    2 GND )
  )
  ( /50763739 $noname  J101 CONN_USB_MINI_B {Lib=CONN_USB_MINI_B}
@@ -349,7 +341,7 @@
   (   22 /UC_USB_CONNECT )
   (   23 ? )
   (   24 MOTION_DET )
-  (   25 N-000054 )
+  (   25 N-000050 )
   (   26 ? )
   (   27 /WW_DIM )
   (   28 /WW2_DIM )
@@ -415,33 +407,23 @@
   (    3 GND )
   (    4 N-000064 )
   (    5 N-000065 )
-  (    6 N-000066 )
+  (    6 N-000061 )
  )
  ( /507727AF $noname  R4 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
-  (    1 N-000069 )
+  (    1 N-000068 )
   (    2 GND )
+ )
+ ( /5074FD7B $noname  D6 LED_GREEN_DIFF_0805 {Lib=LED_GREEN_DIFF_0805}
+  (    1 /WW_DIM )
+  (    2 N-000070 )
+ )
+ ( /5074FDA1 $noname  D7 LED_GREEN_DIFF_0805 {Lib=LED_GREEN_DIFF_0805}
+  (    1 /WW2_DIM )
+  (    2 N-000071 )
  )
 )
 *
 { Allowed footprints by component:
-$component D6
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
-$component D7
- LED-3MM
- LED-5MM
- LED-10MM
- LED-0603
- LED-0805
- LED-1206
- LEDV
-$endlist
 $component C126
  SM0805
 $endlist
@@ -464,7 +446,7 @@ $component C1
  SM0805
 $endlist
 $component D3
- LED-0805
+ led_green_0805
 $endlist
 $component C101
  SM0805
@@ -515,19 +497,19 @@ $component C2
  SM0805
 $endlist
 $component D102
- LED-0805
+ led_green_0805
 $endlist
 $component D104
- LED-0805
+ led_green_0805
 $endlist
 $component D4
- LED-0805
+ led_blue_0805
 $endlist
 $component D105
- LED-0805
+ led_yellow_0805
 $endlist
 $component D106
- LED-0805
+ led_yellow_0805
 $endlist
 $component SW102
  TACT_SW_TH_6x6
@@ -643,173 +625,174 @@ $endlist
 $component R4
  SM0805
 $endlist
+$component D6
+ led_green_0805
+$endlist
+$component D7
+ led_green_0805
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 2 "/BOOTSEL_RESET" "BOOTSEL_RESET"
- SW102 2
- D108 2
- D109 2
-Net 3 "+3.3V" "+3.3V"
- C101 1
- U1050 2
- U1010 4
- RV4 3
- RV3 3
- Q102 S
- RV2 3
- RV1 3
- R107 1
- R3 1
- U1000 44
- C110 1
- C114 1
- C113 1
- C112 1
- C111 1
- C107 1
- P2 1
- C109 1
- R2 1
- R1 1
- R5 2
- U1000 8
- U1020 1
- P1 1
- R110 1
- C123 1
- R109 2
- R102 1
- C127 1
- C1 1
- R108 2
-Net 4 "/SER_USBTOUC" "SER_USBTOUC"
+Net 2 "/SER_USBTOUC" "SER_USBTOUC"
  U1020 2
  U1010 1
  U1000 46
-Net 5 "/SER_UCTOUSB" "SER_UCTOUSB"
- U1020 3
+Net 3 "/SER_UCTOUSB" "SER_UCTOUSB"
  U1000 47
  U1010 5
-Net 8 "/XB_RSSI" "XB_RSSI"
+ U1020 3
+Net 6 "/XB_RSSI" "XB_RSSI"
  D102 1
  U1020 6
-Net 16 "/XB_BOOT_SEL" "XB_BOOT_SEL"
+Net 9 "+3.3V" "+3.3V"
+ C114 1
+ R2 1
+ C113 1
+ P1 1
+ P2 1
+ RV2 3
+ R110 1
+ U1000 44
+ U1000 8
+ RV4 3
+ RV1 3
+ R108 2
+ R5 2
+ R109 2
+ Q102 S
+ C112 1
+ R107 1
+ C111 1
+ C109 1
+ C110 1
+ R3 1
+ R1 1
+ RV3 3
+ U1010 4
+ R102 1
+ C101 1
+ C1 1
+ U1020 1
+ U1050 2
+ C127 1
+ C123 1
+ C107 1
+Net 15 "/XB_BOOT_SEL" "XB_BOOT_SEL"
  U1020 16
  D1 2
-Net 19 "/SW2" "SW2"
- U1000 36
- SW4 1
-Net 21 "/SW3" "SW3"
- SW3 1
+Net 19 "/SW3" "SW3"
  U1000 37
-Net 23 "/SW1" "SW1"
- U1000 38
+ SW3 1
+Net 21 "/SW1" "SW1"
  SW5 1
-Net 25 "/SW4" "SW4"
- U1000 39
+ U1000 38
+Net 23 "/SW4" "SW4"
  SW2 1
+ U1000 39
+Net 24 "/BOOTSEL_RESET" "BOOTSEL_RESET"
+ D109 2
+ SW102 2
+ D108 2
+Net 25 "/AD3" "AD3"
+ RV3 2
+ U1000 34
 Net 26 "" ""
- R105 2
  D104 1
+ R105 2
 Net 27 "/AD2" "AD2"
  U1000 33
  RV2 2
-Net 28 "/AD3" "AD3"
- RV3 2
- U1000 34
-Net 29 "/AD1" "AD1"
- RV1 2
+Net 28 "/AD1" "AD1"
  U1000 32
-Net 30 "/AD4" "AD4"
+ RV1 2
+Net 29 "/AD4" "AD4"
  U1000 35
  RV4 2
-Net 33 "+5V" "+5V"
- J101 1
- U1050 3
- D103 2
- C104 1
- C102 1
- U1010 20
- C126 1
-Net 34 "" ""
- U1010 17
- C1001 1
-Net 42 "GND" "GND"
+Net 30 "/SW2" "SW2"
+ SW4 1
+ U1000 36
+Net 33 "GND" "GND"
+ R104 2
+ C107 2
+ C104 2
+ RV3 1
+ SW3 2
+ SW4 2
+ C109 2
+ R10 1
+ SW2 2
+ SW1 1
+ RV2 1
+ SW101 1
+ C127 2
  C110 2
- R101 2
+ C126 2
+ C2 2
+ C111 2
+ SW5 2
+ D104 2
+ SW102 1
+ C102 2
+ C1 2
+ J101 6
+ RV4 1
+ J101 5
+ RV1 1
+ U1050 1
+ U1010 21
+ U1020 10
+ C125 2
+ C124 2
+ C101 2
+ U1010 25
+ U1010 26
+ U1000 41
+ U1010 7
+ J102 5
+ J102 6
+ U1000 5
+ R106 2
+ U1010 18
  C114 2
  C113 2
  C112 2
- C111 2
- C109 2
- C125 2
- C107 2
- C104 2
- C102 2
- C127 2
- C126 2
+ R101 2
+ P1 4
  P2 3
- C124 2
- C101 2
- C1 2
- RV4 1
- RV1 1
- RV2 1
- SW4 2
- R10 1
  R9 1
- D104 2
- C2 2
- R106 2
- SW1 1
- SW5 2
- SW2 2
- SW101 1
- SW102 1
- SW3 2
- RV3 1
- R104 2
  D5 1
  D5 2
- U1010 25
- U1010 18
- J102 6
- U1010 26
- J102 5
  D5 3
- U1050 1
- U1000 5
- J101 6
- U1010 21
- U1020 10
- U1010 7
- C1001 2
- P1 4
- J101 5
  R4 2
- U1000 41
-Net 53 "MOTION_DET" "MOTION_DET"
- SW1 2
+ C1001 2
+Net 35 "" ""
+ C1001 1
+ U1010 17
+Net 49 "MOTION_DET" "MOTION_DET"
  R3 2
+ SW1 2
  U1000 24
-Net 54 "" ""
+Net 50 "" ""
  D4 2
  U1000 25
-Net 55 "RELAY_EN" "RELAY_EN"
- D3 1
+Net 51 "RELAY_EN" "RELAY_EN"
  U1000 45
-Net 61 "/UC_D_PU" "UC_D_PU"
- R103 2
+ D3 1
+Net 60 "/UC_D_PU" "UC_D_PU"
  R105 1
  Q102 D
+ R103 2
+Net 61 "" ""
+ D5 6
+ R8 1
 Net 62 "/BOOT_SEL" "BOOT_SEL"
- C123 2
- R110 2
  D1 1
- D108 1
  D2 1
+ R110 2
  U1000 4
+ C123 2
+ D108 1
 Net 63 "" ""
  D102 2
  R101 1
@@ -817,84 +800,89 @@ Net 64 "" ""
  R6 1
  D5 4
 Net 65 "" ""
- R7 1
  D5 5
-Net 66 "" ""
- R8 1
- D5 6
-Net 67 "/RED_DIM" "RED_DIM"
- R6 2
+ R7 1
+Net 66 "/RED_DIM" "RED_DIM"
  U1000 29
-Net 68 "/BLU_DIM" "BLU_DIM"
- U1000 40
+ R6 2
+Net 67 "/BLU_DIM" "BLU_DIM"
  R8 2
-Net 69 "" ""
- R4 1
+ U1000 40
+Net 68 "" ""
  D3 2
-Net 70 "/GRN_DIM" "GRN_DIM"
- U1000 30
- R7 2
+ R4 1
+Net 69 "/WW_DIM" "WW_DIM"
+ D6 1
+ U1000 27
+Net 70 "" ""
+ R9 2
+ D6 2
 Net 71 "" ""
  D7 2
  R10 2
-Net 72 "" ""
- D6 2
- R9 2
-Net 73 "/WW_DIM" "WW_DIM"
- U1000 27
- D6 1
-Net 74 "/WW2_DIM" "WW2_DIM"
- U1000 28
+Net 72 "/GRN_DIM" "GRN_DIM"
+ U1000 30
+ R7 2
+Net 73 "/WW2_DIM" "WW2_DIM"
  D7 1
-Net 75 "/~UC_RESET" "~UC_RESET"
+ U1000 28
+Net 74 "/~UC_RESET" "~UC_RESET"
+ SW101 2
+ D109 1
+ R102 2
  U1000 3
  D107 1
- D109 1
  D101 1
- SW101 2
- R102 2
+Net 75 "+5V" "+5V"
+ U1010 20
+ C104 1
+ J101 1
+ C126 1
+ U1050 3
+ C102 1
+ D103 2
 Net 76 "" ""
  R5 1
  D4 1
 Net 77 "/IIC_SDA" "IIC_SDA"
  P1 3
- R1 2
  U1000 16
+ R1 2
 Net 78 "/IIC_SCL" "IIC_SCL"
+ R2 2
  U1000 15
  P1 2
- R2 2
 Net 79 "/UC_XO" "UC_XO"
+ C124 1
  U1000 7
  X101 2
- C124 1
 Net 80 "/UC_XI" "UC_XI"
- C125 1
  U1000 6
+ C125 1
  X101 1
 Net 81 "/UC_D" "UC_D"
  R103 1
- U1000 20
  J102 3
+ U1000 20
 Net 82 "/~UC_D" "~UC_D"
- U1000 19
  J102 2
+ U1000 19
 Net 83 "/UC_VBUS" "UC_VBUS"
- C2 1
- D103 1
+ J102 1
  U1000 14
  R104 1
- J102 1
+ D103 1
+ C2 1
 Net 84 "/UC_USB_CONNECT" "UC_USB_CONNECT"
- Q102 G
  U1000 22
+ Q102 G
  R107 2
 Net 85 "/~SER_USB_D" "~SER_USB_D"
  J101 2
  U1010 16
 Net 86 "/SER_USB_D" "SER_USB_D"
- J101 3
  U1010 15
+ J101 3
 Net 87 "/~SER_RST" "~SER_RST"
  R106 1
  U1010 19
@@ -902,14 +890,14 @@ Net 89 "/SER_TX_LED" "SER_TX_LED"
  D105 2
  U1010 23
 Net 90 "/SER_RX_LED" "SER_RX_LED"
- U1010 22
  D106 2
+ U1010 22
 Net 91 "/SER_TX_LED_R" "SER_TX_LED_R"
  R108 1
  D105 1
 Net 92 "/SER_RX_LED_R" "SER_RX_LED_R"
- D106 1
  R109 1
+ D106 1
 Net 93 "/EXTRA_AD" "EXTRA_AD"
  P2 2
  U1000 42
@@ -920,7 +908,7 @@ Net 98 "/~XBEETOUC_RESET" "~XBEETOUC_RESET"
  D101 2
  U1020 9
 Net 99 "/USBTOUC_BOOT_SEL" "USBTOUC_BOOT_SEL"
- U1010 3
  D2 2
+ U1010 3
 }
 #End

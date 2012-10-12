@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Thu 11 Oct 2012 07:28:04 AM CDT
+Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Thu 11 Oct 2012 08:58:56 PM CDT
 
 BeginCmp
 TimeStamp = /5075C7E7;
@@ -144,35 +144,35 @@ BeginCmp
 TimeStamp = /5075CA06;
 Reference = D3;
 ValeurCmp = LED_GREEN_DIFF_0805;
-IdModule  = LED-0805;
+IdModule  = led_green_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5075DC37;
 Reference = D4;
 ValeurCmp = LED_BLUE_0805;
-IdModule  = LED-0805;
+IdModule  = led_blue_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50742847;
+TimeStamp = /50771F48;
 Reference = D5;
-ValeurCmp = RGB_LED;
+ValeurCmp = LED_RGB_PLCC6;
 IdModule  = PLCC6;
 EndCmp
 
 BeginCmp
-TimeStamp = /50743CD0;
+TimeStamp = /5074FD7B;
 Reference = D6;
-ValeurCmp = WHITE;
-IdModule  = LED-0805;
+ValeurCmp = LED_GREEN_DIFF_0805;
+IdModule  = led_green_0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50743CDD;
+TimeStamp = /5074FDA1;
 Reference = D7;
-ValeurCmp = WHITE;
-IdModule  = LED-0805;
+ValeurCmp = LED_GREEN_DIFF_0805;
+IdModule  = led_green_0805;
 EndCmp
 
 BeginCmp
@@ -186,7 +186,7 @@ BeginCmp
 TimeStamp = /5075DC11;
 Reference = D102;
 ValeurCmp = LED_GREEN_DIFF_0805;
-IdModule  = LED-0805;
+IdModule  = led_green_0805;
 EndCmp
 
 BeginCmp
@@ -200,21 +200,21 @@ BeginCmp
 TimeStamp = /5075DC2F;
 Reference = D104;
 ValeurCmp = LED_GREEN_DIFF_0805;
-IdModule  = LED-0805;
+IdModule  = led_green_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5075DC54;
 Reference = D105;
 ValeurCmp = LED_YELLOW_0805;
-IdModule  = LED-0805;
+IdModule  = led_yellow_0805;
 EndCmp
 
 BeginCmp
 TimeStamp = /5075DC72;
 Reference = D106;
 ValeurCmp = LED_YELLOW_0805;
-IdModule  = LED-0805;
+IdModule  = led_yellow_0805;
 EndCmp
 
 BeginCmp
@@ -323,9 +323,9 @@ IdModule  = SM0805;
 EndCmp
 
 BeginCmp
-TimeStamp = /50744BE6;
+TimeStamp = /507727AF;
 Reference = R4;
-ValeurCmp = R;
+ValeurCmp = RES_330_1P_1V8W_0805;
 IdModule  = SM0805;
 EndCmp
 
@@ -533,16 +533,16 @@ IdModule  = SSOP28;
 EndCmp
 
 BeginCmp
-TimeStamp = /5063A1E6;
+TimeStamp = /5076E161;
 Reference = U1020;
-ValeurCmp = XBEE;
+ValeurCmp = IC_XBEE_SMD;
 IdModule  = XBEE_SMD;
 EndCmp
 
 BeginCmp
-TimeStamp = /50669F0D;
+TimeStamp = /5077156D;
 Reference = U1050;
-ValeurCmp = VREG_1117;
+ValeurCmp = IC_MCP1700T33_SOT23;
 IdModule  = SOT23;
 EndCmp
 

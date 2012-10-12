@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 11 Oct 2012 02:05:13 PM CDT
+EESchema Schematic File Version 2  date Tue 09 Oct 2012 10:52:12 PM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -38,7 +38,7 @@ $Descr C 22000 17000
 encoding utf-8
 Sheet 1 1
 Title ""
-Date "11 oct 2012"
+Date "10 oct 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -659,24 +659,6 @@ F 0 "#PWR051" H 11100 3850 30  0001 C CNN
 F 1 "GND" H 11100 3780 30  0001 C CNN
 	1    11100 3850
 	1    0    0    -1  
-$EndComp
-$Comp
-L LED D6
-U 1 1 50743CD0
-P 12000 2250
-F 0 "D6" H 12000 2350 50  0000 C CNN
-F 1 "WHITE" H 12000 2150 50  0000 C CNN
-	1    12000 2250
-	0    1    1    0   
-$EndComp
-$Comp
-L LED D7
-U 1 1 50743CDD
-P 12450 2250
-F 0 "D7" H 12450 2350 50  0000 C CNN
-F 1 "WHITE" H 12450 2150 50  0000 C CNN
-	1    12450 2250
-	0    1    1    0   
 $EndComp
 $Comp
 L GND #PWR052
@@ -2230,5 +2212,29 @@ F 7 "1%" H 1230 4050 39  0000 R BNN "Tol"
 F 8 "1/8W" H 1230 4000 39  0000 R BNN "Power"
 	1    1300 4050
 	1    0    0    -1  
+$EndComp
+$Comp
+L LED_GREEN_DIFF_0805 D6
+U 1 1 5074FD7B
+P 12000 2250
+F 0 "D6" H 12000 2350 50  0000 C CNN
+F 1 "LED_GREEN_DIFF_0805" H 12000 2450 50  0001 C CNN
+F 4 "475-1410-1-ND" H 11650 2500 61  0001 L BNN "PN"
+F 5 "Green_diff" H 11800 2100 39  0000 L BNN "Val"
+F 6 "0805" H 11800 2150 39  0000 L BNN "Package"
+	1    12000 2250
+	0    1    1    0   
+$EndComp
+$Comp
+L LED_GREEN_DIFF_0805 D7
+U 1 1 5074FDA1
+P 12450 2250
+F 0 "D7" H 12450 2350 50  0000 C CNN
+F 1 "LED_GREEN_DIFF_0805" H 12450 2450 50  0001 C CNN
+F 4 "475-1410-1-ND" H 12100 2500 61  0001 L BNN "PN"
+F 5 "Green_diff" H 12250 2100 39  0000 L BNN "Val"
+F 6 "0805" H 12250 2150 39  0000 L BNN "Package"
+	1    12450 2250
+	0    1    1    0   
 $EndComp
 $EndSCHEMATC
