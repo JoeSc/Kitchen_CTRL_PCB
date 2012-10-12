@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Mon 08 Oct 2012 05:56:09 PM CDT
+EESchema Schematic File Version 2  date Tue 09 Oct 2012 07:39:11 AM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -29,6 +29,7 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
+LIBS:Joes_Lib
 LIBS:New_Kitchen_LM3414-cache
 EELAYER 27 0
 EELAYER END

@@ -1,4 +1,4 @@
-EESchema-LIBRARY Version 2.3  Date: Tue 09 Oct 2012 10:52:12 PM CDT
+EESchema-LIBRARY Version 2.3  Date: Fri 12 Oct 2012 02:05:56 PM CDT
 #encoding utf-8
 #
 # +3.3V
@@ -405,7 +405,7 @@ F4 "160-1579-1-ND" -350 250 61 H I L BNN "PN"
 F5 "Blue" -200 -150 39 H V L BNN "Val"
 F6 "0805" -200 -100 39 H V L BNN "Package"
 $FPLIST
- LED-0805
+ led_blue_0805
 $ENDFPLIST
 DRAW
 P 2 0 1 0  50 50  50 -50 N
@@ -426,7 +426,7 @@ F4 "475-1410-1-ND" -350 250 61 H I L BNN "PN"
 F5 "Green_diff" -200 -150 39 H V L BNN "Val"
 F6 "0805" -200 -100 39 H V L BNN "Package"
 $FPLIST
- LED-0805
+ led_green_0805
 $ENDFPLIST
 DRAW
 P 2 0 1 0  50 50  50 -50 N
@@ -483,7 +483,7 @@ F4 "754-1135-1-ND" -350 250 61 H I L BNN "PN"
 F5 "Yellow" -200 -150 39 H V L BNN "Val"
 F6 "0805" -200 -100 39 H V L BNN "Package"
 $FPLIST
- LED-0805
+ led_yellow_0805
 $ENDFPLIST
 DRAW
 P 2 0 1 0  50 50  50 -50 N

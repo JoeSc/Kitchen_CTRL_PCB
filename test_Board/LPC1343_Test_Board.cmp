@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Thu 11 Oct 2012 08:58:56 PM CDT
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Fri 12 Oct 2012 02:06:08 PM CDT
 
 BeginCmp
 TimeStamp = /5075C7E7;
@@ -124,6 +124,27 @@ TimeStamp = /507617D1;
 Reference = C1001;
 ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50786471;
+Reference = C1234;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /507864B3;
+Reference = C1235;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /50786C43;
+Reference = C12345;
+ValeurCmp = CAP_22UF_20P_10V_X5R_1206;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp
@@ -445,28 +466,28 @@ BeginCmp
 TimeStamp = /50744389;
 Reference = RV1;
 ValeurCmp = POT;
-IdModule  = POT_ST4ETA;
+IdModule  = EVU_POT_R/A;
 EndCmp
 
 BeginCmp
 TimeStamp = /50744383;
 Reference = RV2;
 ValeurCmp = POT;
-IdModule  = POT_ST4ETA;
+IdModule  = EVU_POT_R/A;
 EndCmp
 
 BeginCmp
 TimeStamp = /50744376;
 Reference = RV3;
 ValeurCmp = POT;
-IdModule  = POT_ST4ETA;
+IdModule  = EVU_POT_R/A;
 EndCmp
 
 BeginCmp
 TimeStamp = /5074438F;
 Reference = RV4;
 ValeurCmp = POT;
-IdModule  = POT_ST4ETA;
+IdModule  = EVU_POT_R/A;
 EndCmp
 
 BeginCmp
