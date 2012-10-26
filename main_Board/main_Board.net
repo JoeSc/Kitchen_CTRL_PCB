@@ -1,0 +1,1453 @@
+# EESchema Netlist Version 1.1 created  Thu 25 Oct 2012 10:48:25 PM CDT
+(
+ ( /50665184 $noname  Q102 MOSFET_P {Lib=MOSFET_P}
+  (    D /UC_D_PU )
+  (    G /UC_USB_CONNECT )
+  (    S +3.3V )
+ )
+ ( /50703E3A $noname  HW100 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /50703E49 $noname  HW101 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /50703E58 $noname  HW102 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /50703E67 $noname  HW103 CONN_1 {Lib=CONN_1}
+  (    1 ? )
+ )
+ ( /5075C474 $noname  C126 CAP_1UF_10P_25V_X7R_0805 {Lib=CAP_1UF_10P_25V_X7R_0805}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5075C4C6 $noname  C127 CAP_1UF_10P_25V_X7R_0805 {Lib=CAP_1UF_10P_25V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075C51B $noname  C102 CAP_1UF_10P_25V_X7R_0805 {Lib=CAP_1UF_10P_25V_X7R_0805}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5075C52D $noname  C104 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5075C561 $noname  C107 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075C795 $noname  R106 RES_4P7K_1P_1V8W_0805 {Lib=RES_4P7K_1P_1V8W_0805}
+  (    1 /~SER_RST )
+  (    2 GND )
+ )
+ ( /5075C7E7 $noname  C1 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075CE30 $noname  C101 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075C86E $noname  C124 CAP_39PF_5P_50V_NP0_0805 {Lib=CAP_39PF_5P_50V_NP0_0805}
+  (    1 /UC_XO )
+  (    2 GND )
+ )
+ ( /5075C8AC $noname  C125 CAP_39PF_5P_50V_NP0_0805 {Lib=CAP_39PF_5P_50V_NP0_0805}
+  (    1 /UC_XI )
+  (    2 GND )
+ )
+ ( /5075CEA6 $noname  X101 CRYSTAL_12MHZ_18PF_CS3P2X5 {Lib=CRYSTAL_12MHZ_18PF_CS3P2X5}
+  (    1 /UC_XI )
+  (    2 /UC_XO )
+ )
+ ( /5075CEE3 $noname  R110 RES_4P7K_1P_1V8W_0805 {Lib=RES_4P7K_1P_1V8W_0805}
+  (    1 +3.3V )
+  (    2 /BOOT_SEL )
+ )
+ ( /5075CF14 $noname  C123 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 /BOOT_SEL )
+ )
+ ( /5075CF48 $noname  R102 RES_4P7K_1P_1V8W_0805 {Lib=RES_4P7K_1P_1V8W_0805}
+  (    1 +3.3V )
+  (    2 /~UC_RESET )
+ )
+ ( /5075D1B9 $noname  D2 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /BOOT_SEL )
+  (    2 /USBTOUC_BOOT_SEL )
+ )
+ ( /5075D1D7 $noname  D107 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /~UC_RESET )
+  (    2 /~USBTOUC_RESET )
+ )
+ ( /5075D1E0 $noname  D1 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /BOOT_SEL )
+  (    2 /XB_BOOT_SEL )
+ )
+ ( /5075D1E9 $noname  D101 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /~UC_RESET )
+  (    2 /~XBEETOUC_RESET )
+ )
+ ( /5075D1F2 $noname  D108 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /BOOT_SEL )
+  (    2 /BOOTSEL_RESET )
+ )
+ ( /5075D1FB $noname  D109 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /~UC_RESET )
+  (    2 /BOOTSEL_RESET )
+ )
+ ( /5075D234 $noname  D103 DIODE_MBR0520_SOD123 {Lib=DIODE_MBR0520_SOD123}
+  (    1 /UC_VBUS )
+  (    2 +5V )
+ )
+ ( /5075D50F $noname  R107 RES_4P7K_1P_1V8W_0805 {Lib=RES_4P7K_1P_1V8W_0805}
+  (    1 +3.3V )
+  (    2 /UC_USB_CONNECT )
+ )
+ ( /5075D778 $noname  C2 CAP_1UF_10P_25V_X7R_0805 {Lib=CAP_1UF_10P_25V_X7R_0805}
+  (    1 /UC_VBUS )
+  (    2 GND )
+ )
+ ( /5075DC11 $noname  D102 LED_GREEN_DIFF_0805 {Lib=LED_GREEN_DIFF_0805}
+  (    1 /XB_RSSI )
+  (    2 N-000063 )
+ )
+ ( /5075DC2F $noname  D104 LED_GREEN_DIFF_0805 {Lib=LED_GREEN_DIFF_0805}
+  (    1 N-000061 )
+  (    2 GND )
+ )
+ ( /5075DC37 $noname  D4 LED_BLUE_0805 {Lib=LED_BLUE_0805}
+  (    1 N-000060 )
+  (    2 N-000044 )
+ )
+ ( /5075DC54 $noname  D105 LED_YELLOW_0805 {Lib=LED_YELLOW_0805}
+  (    1 /SER_TX_LED_R )
+  (    2 /SER_TX_LED )
+ )
+ ( /5075DC72 $noname  D106 LED_YELLOW_0805 {Lib=LED_YELLOW_0805}
+  (    1 /SER_RX_LED_R )
+  (    2 /SER_RX_LED )
+ )
+ ( /5075E565 $noname  SW102 SW_PB_MJTP1230 {Lib=SW_PB_MJTP1230}
+  (    1 GND )
+  (    2 /BOOTSEL_RESET )
+ )
+ ( /5075E583 $noname  SW101 SW_PB_MJTP1230 {Lib=SW_PB_MJTP1230}
+  (    1 GND )
+  (    2 /~UC_RESET )
+ )
+ ( /5075F040 $noname  C110 CAP_1UF_10P_25V_X7R_0805 {Lib=CAP_1UF_10P_25V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075F0A5 $noname  C109 CAP_1UF_10P_25V_X7R_0805 {Lib=CAP_1UF_10P_25V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075F355 $noname  C111 CAP_22UF_20P_10V_X5R_1206 {Lib=CAP_22UF_20P_10V_X5R_1206}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075F3A4 $noname  C112 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075F669 $noname  C113 CAP_22UF_20P_10V_X5R_1206 {Lib=CAP_22UF_20P_10V_X5R_1206}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075F674 $noname  C114 CAP_22UF_20P_10V_X5R_1206 {Lib=CAP_22UF_20P_10V_X5R_1206}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /5075D489 $noname  R101 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
+  (    1 N-000063 )
+  (    2 GND )
+ )
+ ( /5075D4BD $noname  R108 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
+  (    1 /SER_TX_LED_R )
+  (    2 +3.3V )
+ )
+ ( /5075D4C8 $noname  R109 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
+  (    1 /SER_RX_LED_R )
+  (    2 +3.3V )
+ )
+ ( /5075D4D3 $noname  R105 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
+  (    1 /UC_D_PU )
+  (    2 N-000061 )
+ )
+ ( /5075D4DE $noname  R5 RES_330_1P_1V8W_0805 {Lib=RES_330_1P_1V8W_0805}
+  (    1 N-000060 )
+  (    2 +3.3V )
+ )
+ ( /5075F198 $noname  R1 RES_1K_1P_1V8W_0805 {Lib=RES_1K_1P_1V8W_0805}
+  (    1 +3.3V )
+  (    2 /IIC_SDA )
+ )
+ ( /5075F1D6 $noname  R2 RES_1K_1P_1V8W_0805 {Lib=RES_1K_1P_1V8W_0805}
+  (    1 +3.3V )
+  (    2 /IIC_SCL )
+ )
+ ( /50760072 $noname  P2 CONN_JST_PH_3 {Lib=CONN_JST_PH_3}
+  (    1 +3.3V )
+  (    2 /EXTRA_AD )
+  (    3 GND )
+ )
+ ( /5076008B $noname  P1 CONN_JST_PH_4 {Lib=CONN_JST_PH_4}
+  (    1 +3.3V )
+  (    2 /IIC_SCL )
+  (    3 /IIC_SDA )
+  (    4 GND )
+ )
+ ( /50761233 $noname  U1010 IC_FT232RL_SSOP28 {Lib=IC_FT232RL_SSOP28}
+  (    1 /SER_USBTOUC )
+  (    2 /~USBTOUC_RESET )
+  (    3 /USBTOUC_BOOT_SEL )
+  (    4 +3.3V )
+  (    5 /SER_UCTOUSB )
+  (    6 ? )
+  (    7 GND )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 /SER_USB_D )
+  (   16 /~SER_USB_D )
+  (   17 N-000081 )
+  (   18 GND )
+  (   19 /~SER_RST )
+  (   20 +5V )
+  (   21 GND )
+  (   22 /SER_RX_LED )
+  (   23 /SER_TX_LED )
+  (   25 GND )
+  (   26 GND )
+  (   27 ? )
+  (   28 ? )
+ )
+ ( /507617D1 $noname  C1001 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 N-000081 )
+  (    2 GND )
+ )
+ ( /50763739 $noname  J101 CONN_USB_MINI_B {Lib=CONN_USB_MINI_B}
+  (    1 +5V )
+  (    2 /~SER_USB_D )
+  (    3 /SER_USB_D )
+  (    4 ? )
+  (    5 GND )
+  (    6 GND )
+ )
+ ( /50763A25 $noname  J102 CONN_USB_MINI_B {Lib=CONN_USB_MINI_B}
+  (    1 /UC_VBUS )
+  (    2 /~UC_D )
+  (    3 /UC_D )
+  (    4 ? )
+  (    5 GND )
+  (    6 GND )
+ )
+ ( /5076CEAC $noname  U1000 IC_LPC1343_LQFP48 {Lib=IC_LPC1343_LQFP48}
+  (    1 ? )
+  (    2 ? )
+  (    3 /~UC_RESET )
+  (    4 /BOOT_SEL )
+  (    5 GND )
+  (    6 /UC_XI )
+  (    7 /UC_XO )
+  (    8 +3.3V )
+  (    9 ? )
+  (   10 ? )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 /UC_VBUS )
+  (   15 /IIC_SCL )
+  (   16 /IIC_SDA )
+  (   17 ? )
+  (   18 ? )
+  (   19 /~UC_D )
+  (   20 /UC_D )
+  (   21 ? )
+  (   22 /UC_USB_CONNECT )
+  (   23 ? )
+  (   24 /MOTION_DET )
+  (   25 N-000044 )
+  (   26 ? )
+  (   27 /WW_DIM )
+  (   28 /WW2_DIM )
+  (   29 /RED_DIM )
+  (   30 /GRN_DIM )
+  (   31 ? )
+  (   32 /AD1 )
+  (   33 /AD2 )
+  (   34 /AD3 )
+  (   35 /AD4 )
+  (   36 /SW2 )
+  (   37 /SW3 )
+  (   38 /SW1 )
+  (   39 /SW4 )
+  (   40 /BLU_DIM )
+  (   41 GND )
+  (   42 /EXTRA_AD )
+  (   43 ? )
+  (   44 +3.3V )
+  (   45 /RELAY_EN )
+  (   46 /SER_USBTOUC )
+  (   47 /SER_UCTOUSB )
+  (   48 ? )
+ )
+ ( /5076BD04 $noname  R103 RES_1P5K_1P_1V8W_0805 {Lib=RES_1P5K_1P_1V8W_0805}
+  (    1 /UC_D )
+  (    2 /UC_D_PU )
+ )
+ ( /5076DAC5 $noname  R104 RES_100K_1P_1V8W_0805 {Lib=RES_100K_1P_1V8W_0805}
+  (    1 /UC_VBUS )
+  (    2 GND )
+ )
+ ( /5076E161 $noname  U1020 IC_XBEE_SMD {Lib=IC_XBEE_SMD}
+  (    1 +3.3V )
+  (    2 /SER_USBTOUC )
+  (    3 /SER_UCTOUSB )
+  (    4 ? )
+  (    5 ? )
+  (    6 /XB_RSSI )
+  (    7 ? )
+  (    8 ? )
+  (    9 /~XBEETOUC_RESET )
+  (   10 GND )
+  (   11 ? )
+  (   12 ? )
+  (   13 ? )
+  (   14 ? )
+  (   15 ? )
+  (   16 /XB_BOOT_SEL )
+  (   17 ? )
+  (   18 ? )
+  (   19 ? )
+  (   20 ? )
+ )
+ ( /5077156D $noname  U1050 IC_MCP1700T33_SOT23 {Lib=IC_MCP1700T33_SOT23}
+  (    1 GND )
+  (    2 +3.3V )
+  (    3 +5V )
+ )
+ ( /50786471 $noname  C1234 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /507864B3 $noname  C1235 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +3.3V )
+  (    2 GND )
+ )
+ ( /50786C43 $noname  C12345 CAP_22UF_20P_10V_X5R_1206 {Lib=CAP_22UF_20P_10V_X5R_1206}
+  (    1 +5V )
+  (    2 GND )
+ )
+ ( /5089E636 $noname  U104 IC_LM3414_PSOP8 {Lib=IC_LM3414_PSOP8}
+  (    1 /WW_VCC )
+  (    2 GND )
+  (    3 /WW_IADJ )
+  (    4 GND )
+  (    5 /WW_FS )
+  (    6 /WW_DIM )
+  (    7 /WW_SW )
+  (    8 +24V )
+ )
+ ( /5089ED0C $noname  D113 DIODE_MBRA340T3G_SMA {Lib=DIODE_MBRA340T3G_SMA}
+  (    1 /WW_SW )
+  (    2 +24V )
+ )
+ ( /5089F08A $noname  L104 IND_39UH {Lib=IND_39UH}
+  (    1 /WW_OUT )
+  (    2 /WW_SW )
+ )
+ ( /5089F180 $noname  C140 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 /WW_OUT )
+ )
+ ( /5089F357 $noname  P105 CONN_TE_IDC_SMT_2_18GA {Lib=CONN_TE_IDC_SMT_2_18GA}
+  (    1 /WW_OUT )
+  (    2 +24V )
+ )
+ ( /5089F522 $noname  R119 RES_80P6K_1P_1V8W_0805 {Lib=RES_80P6K_1P_1V8W_0805}
+  (    1 /WW_FS )
+  (    2 GND )
+ )
+ ( /5089F62F $noname  R114 RES_4P42K_1P_1V8W_0805 {Lib=RES_4P42K_1P_1V8W_0805}
+  (    1 /WW_IADJ )
+  (    2 GND )
+ )
+ ( /5089FA12 $noname  C135 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 /WW_VCC )
+  (    2 GND )
+ )
+ ( /5089FC14 $noname  C130 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /5089FC48 $noname  C120 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A0013 $noname  U103 IC_LM3414_PSOP8 {Lib=IC_LM3414_PSOP8}
+  (    1 /BLU_VCC )
+  (    2 GND )
+  (    3 /BLU_IADJ )
+  (    4 GND )
+  (    5 /BLU_FS )
+  (    6 /BLU_DIM )
+  (    7 /BLU_SW )
+  (    8 +24V )
+ )
+ ( /508A001C $noname  D112 DIODE_MBRA340T3G_SMA {Lib=DIODE_MBRA340T3G_SMA}
+  (    1 /BLU_SW )
+  (    2 +24V )
+ )
+ ( /508A0029 $noname  L103 IND_39UH {Lib=IND_39UH}
+  (    1 /BLU_OUT )
+  (    2 /BLU_SW )
+ )
+ ( /508A0035 $noname  C139 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 /BLU_OUT )
+ )
+ ( /508A0051 $noname  R118 RES_80P6K_1P_1V8W_0805 {Lib=RES_80P6K_1P_1V8W_0805}
+  (    1 /BLU_FS )
+  (    2 GND )
+ )
+ ( /508A005E $noname  R113 RES_4P42K_1P_1V8W_0805 {Lib=RES_4P42K_1P_1V8W_0805}
+  (    1 /BLU_IADJ )
+  (    2 GND )
+ )
+ ( /508A0081 $noname  C134 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 /BLU_VCC )
+  (    2 GND )
+ )
+ ( /508A0095 $noname  C129 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A00A0 $noname  C119 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A00C6 $noname  U102 IC_LM3414_PSOP8 {Lib=IC_LM3414_PSOP8}
+  (    1 /GRN_VCC )
+  (    2 GND )
+  (    3 /GRN_IADJ )
+  (    4 GND )
+  (    5 /GRN_FS )
+  (    6 /GRN_DIM )
+  (    7 /GRN_SW )
+  (    8 +24V )
+ )
+ ( /508A00CF $noname  D111 DIODE_MBRA340T3G_SMA {Lib=DIODE_MBRA340T3G_SMA}
+  (    1 /GRN_SW )
+  (    2 +24V )
+ )
+ ( /508A00DC $noname  L102 IND_39UH {Lib=IND_39UH}
+  (    1 /GRN_OUT )
+  (    2 /GRN_SW )
+ )
+ ( /508A00E8 $noname  C138 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 /GRN_OUT )
+ )
+ ( /508A0104 $noname  R117 RES_80P6K_1P_1V8W_0805 {Lib=RES_80P6K_1P_1V8W_0805}
+  (    1 /GRN_FS )
+  (    2 GND )
+ )
+ ( /508A0111 $noname  R112 RES_4P42K_1P_1V8W_0805 {Lib=RES_4P42K_1P_1V8W_0805}
+  (    1 /GRN_IADJ )
+  (    2 GND )
+ )
+ ( /508A0134 $noname  C133 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 /GRN_VCC )
+  (    2 GND )
+ )
+ ( /508A0148 $noname  C128 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A0153 $noname  C118 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A0179 $noname  U101 IC_LM3414_PSOP8 {Lib=IC_LM3414_PSOP8}
+  (    1 /RED_VCC )
+  (    2 GND )
+  (    3 /RED_IADJ )
+  (    4 GND )
+  (    5 /RED_FS )
+  (    6 /RED_DIM )
+  (    7 /RED_SW )
+  (    8 +24V )
+ )
+ ( /508A0182 $noname  D110 DIODE_MBRA340T3G_SMA {Lib=DIODE_MBRA340T3G_SMA}
+  (    1 /RED_SW )
+  (    2 +24V )
+ )
+ ( /508A018F $noname  L101 IND_39UH {Lib=IND_39UH}
+  (    1 /RED_OUT )
+  (    2 /RED_SW )
+ )
+ ( /508A019B $noname  C137 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 /RED_OUT )
+ )
+ ( /508A01B7 $noname  R116 RES_80P6K_1P_1V8W_0805 {Lib=RES_80P6K_1P_1V8W_0805}
+  (    1 /RED_FS )
+  (    2 GND )
+ )
+ ( /508A01C4 $noname  R111 RES_4P42K_1P_1V8W_0805 {Lib=RES_4P42K_1P_1V8W_0805}
+  (    1 /RED_IADJ )
+  (    2 GND )
+ )
+ ( /508A01E7 $noname  C132 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 /RED_VCC )
+  (    2 GND )
+ )
+ ( /508A01FB $noname  C122 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A0206 $noname  C117 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A022C $noname  U105 IC_LM3414_PSOP8 {Lib=IC_LM3414_PSOP8}
+  (    1 /WW2_VCC )
+  (    2 GND )
+  (    3 /WW2_IADJ )
+  (    4 GND )
+  (    5 /WW2_FS )
+  (    6 /WW2_DIM )
+  (    7 /WW2_SW )
+  (    8 +24V )
+ )
+ ( /508A0235 $noname  D114 DIODE_MBRA340T3G_SMA {Lib=DIODE_MBRA340T3G_SMA}
+  (    1 /WW2_SW )
+  (    2 +24V )
+ )
+ ( /508A0242 $noname  L105 IND_39UH {Lib=IND_39UH}
+  (    1 /WW2_OUT )
+  (    2 /WW2_SW )
+ )
+ ( /508A024E $noname  C141 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 /WW2_OUT )
+ )
+ ( /508A0259 $noname  P106 CONN_TE_IDC_SMT_2_18GA {Lib=CONN_TE_IDC_SMT_2_18GA}
+  (    1 /WW2_OUT )
+  (    2 +24V )
+ )
+ ( /508A026A $noname  R120 RES_80P6K_1P_1V8W_0805 {Lib=RES_80P6K_1P_1V8W_0805}
+  (    1 /WW2_FS )
+  (    2 GND )
+ )
+ ( /508A0277 $noname  R115 RES_4P42K_1P_1V8W_0805 {Lib=RES_4P42K_1P_1V8W_0805}
+  (    1 /WW2_IADJ )
+  (    2 GND )
+ )
+ ( /508A029A $noname  C136 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 /WW2_VCC )
+  (    2 GND )
+ )
+ ( /508A02AE $noname  C131 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A02B9 $noname  C121 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A0343 $noname  P107 CONN_TE_IDC_SMT_4_18GA {Lib=CONN_TE_IDC_SMT_4_18GA}
+  (    1 /BLU_OUT )
+  (    2 /GRN_OUT )
+  (    3 /RED_OUT )
+  (    4 +24V )
+ )
+ ( /508A0FC8 $noname  Q101 TR_N_SI2308BDS {Lib=TR_N_SI2308BDS}
+  (    D N-000039 )
+  (    G /RELAY_EN )
+  (    S GND )
+ )
+ ( /508A0FF8 $noname  P102 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
+  (    1 N-000039 )
+  (    2 +5V )
+ )
+ ( /508A12C1 $noname  P101 CONN_JST_PH_3 {Lib=CONN_JST_PH_3}
+  (    1 GND )
+  (    2 +3.3V )
+  (    3 /MOTION_DET )
+ )
+ ( /508A1EA8 $noname  P104 CONN_5X2 {Lib=CONN_5X2}
+  (    1 GND )
+  (    2 /SW4 )
+  (    3 +3.3V )
+  (    4 /SW1 )
+  (    5 /SW3 )
+  (    6 /SW2 )
+  (    7 /AD4 )
+  (    8 /AD3 )
+  (    9 /AD2 )
+  (   10 /AD1 )
+ )
+ ( /508A29DD $noname  P103 CONN_2 {Lib=CONN_2}
+  (    1 GND )
+  (    2 +24V )
+ )
+ ( /508A2CD2 $noname  C108 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A2D03 $noname  C116 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A2D34 $noname  C105 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A2D68 $noname  C106 CAP_1UF_10P_50V_X5R_0805 {Lib=CAP_1UF_10P_50V_X5R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A2D73 $noname  C115 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A2D7E $noname  C103 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A35B1 $noname  C147 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A35BC $noname  C144 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A35DF $noname  C146 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A35EA $noname  C143 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A360D $noname  C145 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A3618 $noname  C142 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A3A1E $noname  C148 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A3A35 $noname  C149 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+ ( /508A3A4C $noname  C150 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
+  (    1 +24V )
+  (    2 GND )
+ )
+)
+*
+{ Allowed footprints by component:
+$component C126
+ SM0805
+$endlist
+$component C127
+ SM0805
+$endlist
+$component C102
+ SM0805
+$endlist
+$component C104
+ SM0805
+$endlist
+$component C107
+ SM0805
+$endlist
+$component R106
+ SM0805
+$endlist
+$component C1
+ SM0805
+$endlist
+$component C101
+ SM0805
+$endlist
+$component C124
+ SM0805
+$endlist
+$component C125
+ SM0805
+$endlist
+$component X101
+ CRYSTAL_3P2X5
+$endlist
+$component R110
+ SM0805
+$endlist
+$component C123
+ SM0805
+$endlist
+$component R102
+ SM0805
+$endlist
+$component D2
+ SOD123
+$endlist
+$component D107
+ SOD123
+$endlist
+$component D1
+ SOD123
+$endlist
+$component D101
+ SOD123
+$endlist
+$component D108
+ SOD123
+$endlist
+$component D109
+ SOD123
+$endlist
+$component D103
+ SOD123
+$endlist
+$component R107
+ SM0805
+$endlist
+$component C2
+ SM0805
+$endlist
+$component D102
+ led_green_0805
+$endlist
+$component D104
+ led_green_0805
+$endlist
+$component D4
+ led_blue_0805
+$endlist
+$component D105
+ led_yellow_0805
+$endlist
+$component D106
+ led_yellow_0805
+$endlist
+$component SW102
+ TACT_SW_TH_6x6
+$endlist
+$component SW101
+ TACT_SW_TH_6x6
+$endlist
+$component C110
+ SM0805
+$endlist
+$component C109
+ SM0805
+$endlist
+$component C111
+ SM1206
+$endlist
+$component C112
+ SM0805
+$endlist
+$component C113
+ SM1206
+$endlist
+$component C114
+ SM1206
+$endlist
+$component R101
+ SM0805
+$endlist
+$component R108
+ SM0805
+$endlist
+$component R109
+ SM0805
+$endlist
+$component R105
+ SM0805
+$endlist
+$component R5
+ SM0805
+$endlist
+$component R1
+ SM0805
+$endlist
+$component R2
+ SM0805
+$endlist
+$component P2
+ JST_PH_3
+$endlist
+$component P1
+ JST_PH_4
+$endlist
+$component U1010
+ SSOP28
+$endlist
+$component C1001
+ SM0805
+$endlist
+$component J101
+ CONN_USB_MINI_B
+$endlist
+$component J102
+ CONN_USB_MINI_B
+$endlist
+$component U1000
+ LQFP48
+$endlist
+$component R103
+ SM0805
+$endlist
+$component R104
+ SM0805
+$endlist
+$component U1050
+ SOT23-3
+$endlist
+$component C1234
+ SM0805
+$endlist
+$component C1235
+ SM0805
+$endlist
+$component C12345
+ SM1206
+$endlist
+$component D113
+ SMA
+$endlist
+$component L104
+ SRR1208
+$endlist
+$component C140
+ SM0805
+$endlist
+$component P105
+ CONN_TE_IDC_SSL_2
+$endlist
+$component R119
+ SM0805
+$endlist
+$component R114
+ SM0805
+$endlist
+$component C135
+ SM0805
+$endlist
+$component C130
+ SM1206
+$endlist
+$component C120
+ SM1206
+$endlist
+$component D112
+ SMA
+$endlist
+$component L103
+ SRR1208
+$endlist
+$component C139
+ SM0805
+$endlist
+$component R118
+ SM0805
+$endlist
+$component R113
+ SM0805
+$endlist
+$component C134
+ SM0805
+$endlist
+$component C129
+ SM1206
+$endlist
+$component C119
+ SM1206
+$endlist
+$component D111
+ SMA
+$endlist
+$component L102
+ SRR1208
+$endlist
+$component C138
+ SM0805
+$endlist
+$component R117
+ SM0805
+$endlist
+$component R112
+ SM0805
+$endlist
+$component C133
+ SM0805
+$endlist
+$component C128
+ SM1206
+$endlist
+$component C118
+ SM1206
+$endlist
+$component D110
+ SMA
+$endlist
+$component L101
+ SRR1208
+$endlist
+$component C137
+ SM0805
+$endlist
+$component R116
+ SM0805
+$endlist
+$component R111
+ SM0805
+$endlist
+$component C132
+ SM0805
+$endlist
+$component C122
+ SM1206
+$endlist
+$component C117
+ SM1206
+$endlist
+$component D114
+ SMA
+$endlist
+$component L105
+ SRR1208
+$endlist
+$component C141
+ SM0805
+$endlist
+$component P106
+ CONN_TE_IDC_SSL_2
+$endlist
+$component R120
+ SM0805
+$endlist
+$component R115
+ SM0805
+$endlist
+$component C136
+ SM0805
+$endlist
+$component C131
+ SM1206
+$endlist
+$component C121
+ SM1206
+$endlist
+$component P107
+ JST_PH_4
+$endlist
+$component Q101
+ SOT23GDS
+$endlist
+$component P102
+ JST_PH_2
+$endlist
+$component P101
+ JST_PH_3
+$endlist
+$component C108
+ SM0805
+$endlist
+$component C116
+ SM0805
+$endlist
+$component C105
+ SM1206
+$endlist
+$component C106
+ SM0805
+$endlist
+$component C115
+ SM0805
+$endlist
+$component C103
+ SM1206
+$endlist
+$component C147
+ SM1206
+$endlist
+$component C144
+ SM1206
+$endlist
+$component C146
+ SM1206
+$endlist
+$component C143
+ SM1206
+$endlist
+$component C145
+ SM1206
+$endlist
+$component C142
+ SM1206
+$endlist
+$component C148
+ SM0805
+$endlist
+$component C149
+ SM0805
+$endlist
+$component C150
+ SM0805
+$endlist
+$endfootprintlist
+}
+{ Pin List by Nets
+Net 1 "/GRN_FS" "GRN_FS"
+ U102 5
+ R117 1
+Net 2 "GND" "GND"
+ C105 2
+ P2 3
+ P104 1
+ U1010 18
+ U1020 10
+ U1010 26
+ J101 5
+ U1010 25
+ C106 2
+ U1000 41
+ C115 2
+ U1010 21
+ C110 2
+ C113 2
+ C112 2
+ C103 2
+ C111 2
+ U1050 1
+ C145 2
+ C1 2
+ C142 2
+ C148 2
+ R106 2
+ C107 2
+ C104 2
+ J101 6
+ C102 2
+ C127 2
+ C126 2
+ P1 4
+ U1010 7
+ C1001 2
+ R113 2
+ C134 2
+ C114 2
+ R118 2
+ U103 2
+ P103 1
+ C109 2
+ C116 2
+ SW101 1
+ C108 2
+ SW102 1
+ U103 4
+ C130 2
+ C120 2
+ R101 2
+ C122 2
+ C117 2
+ R115 2
+ C1234 2
+ C121 2
+ C131 2
+ R120 2
+ U105 4
+ C125 2
+ R104 2
+ Q101 S
+ D104 2
+ C136 2
+ U105 2
+ C132 2
+ C147 2
+ C149 2
+ U1000 5
+ C150 2
+ C2 2
+ C124 2
+ C144 2
+ P101 1
+ C101 2
+ J102 5
+ C146 2
+ C143 2
+ J102 6
+ C133 2
+ R117 2
+ U101 2
+ U101 4
+ C118 2
+ R112 2
+ R119 2
+ R114 2
+ C129 2
+ U102 2
+ U102 4
+ C128 2
+ R116 2
+ C119 2
+ R111 2
+ U104 4
+ U104 2
+ C1235 2
+ C12345 2
+ C135 2
+Net 3 "/BLU_VCC" "BLU_VCC"
+ C134 1
+ U103 1
+Net 4 "/GRN_IADJ" "GRN_IADJ"
+ U102 3
+ R112 1
+Net 5 "/BLU_DIM" "BLU_DIM"
+ U103 6
+ U1000 40
+Net 6 "/BLU_IADJ" "BLU_IADJ"
+ U103 3
+ R113 1
+Net 7 "/RED_DIM" "RED_DIM"
+ U101 6
+ U1000 29
+Net 8 "/RED_FS" "RED_FS"
+ U101 5
+ R116 1
+Net 9 "/GRN_VCC" "GRN_VCC"
+ C133 1
+ U102 1
+Net 10 "/GRN_DIM" "GRN_DIM"
+ U1000 30
+ U102 6
+Net 11 "/RED_IADJ" "RED_IADJ"
+ U101 3
+ R111 1
+Net 12 "/GRN_OUT" "GRN_OUT"
+ C138 2
+ L102 1
+ P107 2
+Net 13 "/GRN_SW" "GRN_SW"
+ U102 7
+ D111 1
+ L102 2
+Net 14 "/WW_FS" "WW_FS"
+ U104 5
+ R119 1
+Net 15 "/WW_VCC" "WW_VCC"
+ C135 1
+ U104 1
+Net 16 "/WW_IADJ" "WW_IADJ"
+ U104 3
+ R114 1
+Net 17 "/WW_DIM" "WW_DIM"
+ U104 6
+ U1000 27
+Net 18 "+3.3V" "+3.3V"
+ R110 1
+ U1020 1
+ C123 1
+ R102 1
+ C1 1
+ C1234 1
+ R108 2
+ R109 2
+ R5 2
+ R1 1
+ C110 1
+ C114 1
+ C109 1
+ C111 1
+ C112 1
+ Q102 S
+ C113 1
+ C107 1
+ R107 1
+ U1000 44
+ R2 1
+ P2 1
+ P1 1
+ U1010 4
+ C127 1
+ C101 1
+ U1000 8
+ P104 3
+ P101 2
+ C1235 1
+ U1050 2
+Net 19 "/BLU_FS" "BLU_FS"
+ R118 1
+ U103 5
+Net 20 "+24V" "+24V"
+ D112 2
+ P103 2
+ C108 1
+ C116 1
+ U103 8
+ C145 1
+ C142 1
+ C148 1
+ C105 1
+ C106 1
+ C115 1
+ C103 1
+ P105 2
+ C128 1
+ C118 1
+ U101 8
+ D110 2
+ C130 1
+ C120 1
+ C137 1
+ C139 1
+ U104 8
+ D113 2
+ C140 1
+ P106 2
+ C121 1
+ C131 1
+ U105 8
+ D114 2
+ C138 1
+ P107 4
+ C150 1
+ D111 2
+ C122 1
+ C117 1
+ C143 1
+ C141 1
+ C146 1
+ C144 1
+ C147 1
+ U102 8
+ C149 1
+ C129 1
+ C119 1
+Net 21 "/BLU_SW" "BLU_SW"
+ L103 2
+ D112 1
+ U103 7
+Net 22 "/WW_OUT" "WW_OUT"
+ P105 1
+ C140 2
+ L104 1
+Net 23 "/WW_SW" "WW_SW"
+ U104 7
+ D113 1
+ L104 2
+Net 24 "/MOTION_DET" "MOTION_DET"
+ U1000 24
+ P101 3
+Net 25 "/AD1" "AD1"
+ U1000 32
+ P104 10
+Net 26 "/AD3" "AD3"
+ U1000 34
+ P104 8
+Net 27 "/SW2" "SW2"
+ U1000 36
+ P104 6
+Net 28 "/SW1" "SW1"
+ P104 4
+ U1000 38
+Net 29 "/SW4" "SW4"
+ P104 2
+ U1000 39
+Net 30 "/WW2_FS" "WW2_FS"
+ U105 5
+ R120 1
+Net 31 "/RED_VCC" "RED_VCC"
+ C132 1
+ U101 1
+Net 32 "/RED_OUT" "RED_OUT"
+ P107 3
+ L101 1
+ C137 2
+Net 33 "/RED_SW" "RED_SW"
+ L101 2
+ D110 1
+ U101 7
+Net 34 "/BLU_OUT" "BLU_OUT"
+ C139 2
+ P107 1
+ L103 1
+Net 35 "/WW2_OUT" "WW2_OUT"
+ C141 2
+ L105 1
+ P106 1
+Net 36 "/WW2_SW" "WW2_SW"
+ L105 2
+ D114 1
+ U105 7
+Net 37 "/WW2_DIM" "WW2_DIM"
+ U1000 28
+ U105 6
+Net 38 "/WW2_IADJ" "WW2_IADJ"
+ R115 1
+ U105 3
+Net 39 "" ""
+ P102 1
+ Q101 D
+Net 40 "+5V" "+5V"
+ C12345 1
+ P102 2
+ U1050 3
+ D103 2
+ C126 1
+ C104 1
+ C102 1
+ J101 1
+ U1010 20
+Net 41 "/RELAY_EN" "RELAY_EN"
+ Q101 G
+ U1000 45
+Net 42 "/WW2_VCC" "WW2_VCC"
+ C136 1
+ U105 1
+Net 43 "/XB_BOOT_SEL" "XB_BOOT_SEL"
+ D1 2
+ U1020 16
+Net 44 "" ""
+ U1000 25
+ D4 2
+Net 45 "/UC_VBUS" "UC_VBUS"
+ D103 1
+ C2 1
+ R104 1
+ U1000 14
+ J102 1
+Net 46 "/SW3" "SW3"
+ P104 5
+ U1000 37
+Net 47 "/AD4" "AD4"
+ P104 7
+ U1000 35
+Net 48 "/AD2" "AD2"
+ P104 9
+ U1000 33
+Net 49 "/BOOT_SEL" "BOOT_SEL"
+ D2 1
+ D1 1
+ C123 2
+ R110 2
+ U1000 4
+ D108 1
+Net 59 "/SER_RX_LED" "SER_RX_LED"
+ D106 2
+ U1010 22
+Net 60 "" ""
+ D4 1
+ R5 1
+Net 61 "" ""
+ R105 2
+ D104 1
+Net 63 "" ""
+ R101 1
+ D102 2
+Net 64 "/~UC_RESET" "~UC_RESET"
+ D109 1
+ U1000 3
+ R102 2
+ SW101 2
+ D107 1
+ D101 1
+Net 65 "/~XBEETOUC_RESET" "~XBEETOUC_RESET"
+ D101 2
+ U1020 9
+Net 66 "/~USBTOUC_RESET" "~USBTOUC_RESET"
+ U1010 2
+ D107 2
+Net 67 "/USBTOUC_BOOT_SEL" "USBTOUC_BOOT_SEL"
+ U1010 3
+ D2 2
+Net 68 "/UC_USB_CONNECT" "UC_USB_CONNECT"
+ R107 2
+ Q102 G
+ U1000 22
+Net 69 "/SER_RX_LED_R" "SER_RX_LED_R"
+ D106 1
+ R109 1
+Net 73 "/EXTRA_AD" "EXTRA_AD"
+ U1000 42
+ P2 2
+Net 74 "/SER_TX_LED_R" "SER_TX_LED_R"
+ R108 1
+ D105 1
+Net 75 "/SER_TX_LED" "SER_TX_LED"
+ U1010 23
+ D105 2
+Net 76 "/SER_USB_D" "SER_USB_D"
+ J101 3
+ U1010 15
+Net 77 "/~SER_USB_D" "~SER_USB_D"
+ J101 2
+ U1010 16
+Net 78 "/XB_RSSI" "XB_RSSI"
+ D102 1
+ U1020 6
+Net 79 "/~SER_RST" "~SER_RST"
+ R106 1
+ U1010 19
+Net 80 "/IIC_SCL" "IIC_SCL"
+ P1 2
+ R2 2
+ U1000 15
+Net 81 "" ""
+ C1001 1
+ U1010 17
+Net 82 "/BOOTSEL_RESET" "BOOTSEL_RESET"
+ D108 2
+ SW102 2
+ D109 2
+Net 83 "/IIC_SDA" "IIC_SDA"
+ U1000 16
+ R1 2
+ P1 3
+Net 84 "/UC_D_PU" "UC_D_PU"
+ R105 1
+ Q102 D
+ R103 2
+Net 85 "/UC_XO" "UC_XO"
+ X101 2
+ U1000 7
+ C124 1
+Net 86 "/UC_XI" "UC_XI"
+ C125 1
+ X101 1
+ U1000 6
+Net 96 "/SER_UCTOUSB" "SER_UCTOUSB"
+ U1020 3
+ U1000 47
+ U1010 5
+Net 98 "/SER_USBTOUC" "SER_USBTOUC"
+ U1010 1
+ U1020 2
+ U1000 46
+Net 100 "/~UC_D" "~UC_D"
+ J102 2
+ U1000 19
+Net 103 "/UC_D" "UC_D"
+ U1000 20
+ R103 1
+ J102 3
+}
+#End
