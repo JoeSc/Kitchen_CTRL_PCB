@@ -1,0 +1,31 @@
+Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Sat 20 Oct 2012 10:20:44 PM CDT
+
+BeginCmp
+TimeStamp = /508366E6;
+Reference = P1;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /508366F3;
+Reference = P2;
+ValeurCmp = CONN_1;
+IdModule  = PINTST;
+EndCmp
+
+BeginCmp
+TimeStamp = /508349CB;
+Reference = P3;
+ValeurCmp = CONN_2;
+IdModule  = TE_IDC_SSL_2;
+EndCmp
+
+BeginCmp
+TimeStamp = /508349BE;
+Reference = P4;
+ValeurCmp = CONN_2;
+IdModule  = TE_IDC_SSL_2;
+EndCmp
+
+EndListe

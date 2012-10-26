@@ -1,0 +1,30 @@
+# EESchema Netlist Version 1.1 created  Sat 20 Oct 2012 10:02:45 PM CDT
+(
+ ( /508349BE $noname  P4 CONN_2 {Lib=CONN_2}
+  (    1 +24V )
+  (    2 N-000003 )
+ )
+ ( /508349CB $noname  P3 CONN_2 {Lib=CONN_2}
+  (    1 N-000002 )
+  (    2 +24V )
+ )
+ ( /508366E6 $noname  P1 CONN_1 {Lib=CONN_1}
+  (    1 N-000002 )
+ )
+ ( /508366F3 $noname  P2 CONN_1 {Lib=CONN_1}
+  (    1 N-000003 )
+ )
+)
+*
+{ Pin List by Nets
+Net 1 "+24V" "+24V"
+ P3 2
+ P4 1
+Net 2 "" ""
+ P1 1
+ P3 1
+Net 3 "" ""
+ P2 1
+ P4 2
+}
+#End
