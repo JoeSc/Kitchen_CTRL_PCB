@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Thu 25 Oct 2012 10:05:06 PM CDT
+Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Fri 26 Oct 2012 05:23:11 PM CDT
 
 BeginCmp
 TimeStamp = /5075C7E7;
@@ -369,6 +369,76 @@ TimeStamp = /507617D1;
 Reference = C1001;
 ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
 IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0C6A;
+Reference = C1002;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0C49;
+Reference = C1003;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0C54;
+Reference = C1004;
+ValeurCmp = CAP_1UF_10P_50V_X5R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0C33;
+Reference = C1005;
+ValeurCmp = CAP_1UF_10P_50V_X5R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0C5F;
+Reference = C1006;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0C3E;
+Reference = C1007;
+ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
+IdModule  = SM0805;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0D40;
+Reference = C1008;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0D35;
+Reference = C1009;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0D6E;
+Reference = C1010;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
+EndCmp
+
+BeginCmp
+TimeStamp = /508B0D63;
+Reference = C1011;
+ValeurCmp = CAP_2P2UF_10P_50V_X5R_1206;
+IdModule  = SM1206;
 EndCmp
 
 BeginCmp

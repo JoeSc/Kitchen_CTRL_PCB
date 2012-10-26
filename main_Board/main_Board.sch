@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Thu 25 Oct 2012 11:04:06 PM CDT
+EESchema Schematic File Version 2  date Fri 26 Oct 2012 08:05:49 AM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -31,7 +31,6 @@ LIBS:contrib
 LIBS:valves
 LIBS:Joe_Chips
 LIBS:Joe_Discrete
-LIBS:New_Kitchen_LM3414-cache
 LIBS:main_Board-cache
 EELAYER 27 0
 EELAYER END
@@ -278,13 +277,13 @@ AD3
 Text Label 9800 13600 2    60   ~ 0
 AD4
 Text Label 9800 13700 2    60   ~ 0
-BLU_DIM
+RED_DIM
 Text Label 9800 14100 2    60   ~ 0
 GRN_DIM
 Text Label 9800 13100 2    60   ~ 0
 WW2_DIM
 Text Label 4800 14800 0    60   ~ 0
-RED_DIM
+BLU_DIM
 Text Label 9800 13000 2    60   ~ 0
 WW_DIM
 Text Label 9800 14700 2    60   ~ 0
