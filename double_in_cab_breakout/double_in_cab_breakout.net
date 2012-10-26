@@ -1,4 +1,4 @@
-# EESchema Netlist Version 1.1 created  Sat 20 Oct 2012 09:12:44 PM CDT
+# EESchema Netlist Version 1.1 created  Wed 24 Oct 2012 09:39:07 PM CDT
 (
  ( /5074D9D8 $noname  C101 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
   (    1 +24V )
@@ -18,44 +18,27 @@
  )
  ( /5074E11A $noname  P10 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
   (    1 +24V )
-  (    2 /LED_STRIP_12V )
+  (    2 /STRIP2_12V )
  )
  ( /5074E138 $noname  P11 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
   (    1 +24V )
-  (    2 /LED_STRIP_12V )
+  (    2 /STRIP1_12V )
  )
  ( /5074E15D $noname  P13 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /LED_STRIP_12V )
-  (    2 /LED_STRIP_GND )
+  (    1 /STRIP2_12V )
+  (    2 /STRIP_GND )
  )
  ( /5074E16A $noname  P14 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /LED_STRIP_12V )
-  (    2 /LED_STRIP_GND )
+  (    1 /STRIP1_12V )
+  (    2 /STRIP_GND )
  )
  ( /5074E177 $noname  P16 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /SW )
+  (    1 /STRIP_GND )
   (    2 GND )
  )
  ( /5074E184 $noname  P17 CONN_JST_PH_2 {Lib=CONN_JST_PH_2}
-  (    1 /SW )
+  (    1 /STRIP_GND )
   (    2 GND )
- )
- ( /5074E770 $noname  D10 DIODE_ZENER_9P1V {Lib=DIODE_ZENER_9P1V}
-  (    1 GND )
-  (    2 /SW )
- )
- ( /5074EFD5 $noname  Q10 MOS_N_SI2308BDS {Lib=MOS_N_SI2308BDS}
-  (    D /LED_STRIP_GND )
-  (    G /SW )
-  (    S GND )
- )
- ( /5074EB8E $noname  R11 RES_0_0P_1V4_1206 {Lib=RES_0_0P_1V4_1206}
-  (    1 /SW )
-  (    2 /LED_STRIP_GND )
- )
- ( /5074ECE4 $noname  R10 RES_100K_1P_1V8W_0805 {Lib=RES_100K_1P_1V8W_0805}
-  (    1 +24V )
-  (    2 /SW )
  )
  ( /508349BE $noname  P4 CONN_2 {Lib=CONN_2}
   (    1 +24V )
@@ -98,58 +81,37 @@ $endlist
 $component P17
  JST_PH_2
 $endlist
-$component D10
- SOD123
-$endlist
-$component Q10
- SOT23GDS
-$endlist
-$component R11
- SM1206
-$endlist
-$component R10
- SM0805
-$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "+24V" "+24V"
- P4 1
- C102 1
- C103 1
- P3 2
- C104 1
- C101 1
- P10 1
- P11 1
- R10 1
-Net 2 "GND" "GND"
- D10 1
- Q10 S
- C104 2
- C103 2
- C102 2
- P3 1
- P16 2
- P17 2
- C101 2
- P4 2
-Net 3 "/SW" "SW"
- P17 1
- P16 1
- D10 2
- Q10 G
- R11 1
- R10 2
-Net 4 "/LED_STRIP_GND" "LED_STRIP_GND"
- P14 2
- P13 2
- R11 2
- Q10 D
-Net 5 "/LED_STRIP_12V" "LED_STRIP_12V"
- P10 2
- P13 1
+Net 1 "/STRIP1_12V" "STRIP1_12V"
  P11 2
  P14 1
+Net 2 "GND" "GND"
+ C103 2
+ C101 2
+ C102 2
+ C104 2
+ P3 1
+ P4 2
+ P17 2
+ P16 2
+Net 3 "/STRIP_GND" "STRIP_GND"
+ P16 1
+ P17 1
+ P14 2
+ P13 2
+Net 4 "+24V" "+24V"
+ P3 2
+ P4 1
+ P11 1
+ P10 1
+ C103 1
+ C102 1
+ C101 1
+ C104 1
+Net 5 "/STRIP2_12V" "STRIP2_12V"
+ P13 1
+ P10 2
 }
 #End
