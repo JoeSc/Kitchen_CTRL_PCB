@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2011-nov-30)-testing date = Fri 12 Oct 2012 02:06:08 PM CDT
+Cmp-Mod V01 Created by PcbNew date = Sat 13 Oct 2012 12:56:42 PM CDT
 
 BeginCmp
 TimeStamp = /5075C7E7;
@@ -543,7 +543,7 @@ BeginCmp
 TimeStamp = /5076CEAC;
 Reference = U1000;
 ValeurCmp = IC_LPC1343_LQFP48;
-IdModule  = LQFP48;
+IdModule  = LQFP48_new;
 EndCmp
 
 BeginCmp

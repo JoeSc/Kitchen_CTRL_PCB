@@ -1,4 +1,4 @@
-PCBNEW-BOARD Version 1 date Sat 13 Oct 2012 01:23:55 PM CDT
+PCBNEW-BOARD Version 1 date Sat 13 Oct 2012 01:13:42 PM CDT
 
 # Created by Pcbnew(2012-10-05 BZR 3752)-testing
 
@@ -7,7 +7,7 @@ encoding utf-8
 Units deci-mils
 LayerCount 2
 EnabledLayers 1FFF8001
-VisibleLayers 10008000
+VisibleLayers 10208000
 Links 190
 NoConn 0
 Di 66938 35824 95999 75976
