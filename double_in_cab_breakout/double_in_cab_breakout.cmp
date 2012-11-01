@@ -1,4 +1,4 @@
-Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Sat 20 Oct 2012 11:15:04 PM CDT
+Cmp-Mod V01 Created by CvPcb (2012-10-05 BZR 3752)-testing date = Wed 31 Oct 2012 06:39:46 PM CDT
 
 BeginCmp
 TimeStamp = /5074D9D8;
@@ -26,27 +26,6 @@ TimeStamp = /5074DAEC;
 Reference = C104;
 ValeurCmp = CAP_0P1UF_10P_50V_X7R_0805;
 IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5074E770;
-Reference = D10;
-ValeurCmp = DIODE_ZENER_9P1V;
-IdModule  = SOD123;
-EndCmp
-
-BeginCmp
-TimeStamp = /508349CB;
-Reference = P3;
-ValeurCmp = CONN_2;
-IdModule  = TE_IDC_SSL_2;
-EndCmp
-
-BeginCmp
-TimeStamp = /508349BE;
-Reference = P4;
-ValeurCmp = CONN_2;
-IdModule  = TE_IDC_SSL_2;
 EndCmp
 
 BeginCmp
@@ -92,24 +71,17 @@ IdModule  = JST_PH_2_TH_RA;
 EndCmp
 
 BeginCmp
-TimeStamp = /5074EFD5;
-Reference = Q10;
-ValeurCmp = MOS_N_SI2308BDS;
-IdModule  = SOT23GDS;
+TimeStamp = /5091BA69;
+Reference = P100;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
 EndCmp
 
 BeginCmp
-TimeStamp = /5074ECE4;
-Reference = R10;
-ValeurCmp = RES_100K_1P_1V8W_0805;
-IdModule  = SM0805;
-EndCmp
-
-BeginCmp
-TimeStamp = /5074EB8E;
-Reference = R11;
-ValeurCmp = RES_0_0P_1V4_1206;
-IdModule  = SM1206;
+TimeStamp = /5091BA8B;
+Reference = P101;
+ValeurCmp = CONN_TERM_BLOCK_2POS_3P5MM;
+IdModule  = CONN_TERM_BLOCK_2POS_3P5MM;
 EndCmp
 
 EndListe

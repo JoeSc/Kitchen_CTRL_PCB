@@ -1,18 +1,10 @@
-# EESchema Netlist Version 1.1 created  Wed 24 Oct 2012 09:39:07 PM CDT
+# EESchema Netlist Version 1.1 created  Wed 31 Oct 2012 08:56:06 PM CDT
 (
  ( /5074D9D8 $noname  C101 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
   (    1 +24V )
   (    2 GND )
  )
  ( /5074DA16 $noname  C102 CAP_2P2UF_10P_50V_X5R_1206 {Lib=CAP_2P2UF_10P_50V_X5R_1206}
-  (    1 +24V )
-  (    2 GND )
- )
- ( /5074DABB $noname  C103 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
-  (    1 +24V )
-  (    2 GND )
- )
- ( /5074DAEC $noname  C104 CAP_0P1UF_10P_50V_X7R_0805 {Lib=CAP_0P1UF_10P_50V_X7R_0805}
   (    1 +24V )
   (    2 GND )
  )
@@ -40,13 +32,13 @@
   (    1 /STRIP_GND )
   (    2 GND )
  )
- ( /508349BE $noname  P4 CONN_2 {Lib=CONN_2}
-  (    1 +24V )
-  (    2 GND )
- )
- ( /508349CB $noname  P3 CONN_2 {Lib=CONN_2}
+ ( /5091BA69 $noname  P100 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
   (    1 GND )
   (    2 +24V )
+ )
+ ( /5091BA8B $noname  P101 CONN_TERM_BLOCK_2POS_3P5MM {Lib=CONN_TERM_BLOCK_2POS_3P5MM}
+  (    1 +24V )
+  (    2 GND )
  )
 )
 *
@@ -56,12 +48,6 @@ $component C101
 $endlist
 $component C102
  SM1206
-$endlist
-$component C103
- SM0805
-$endlist
-$component C104
- SM0805
 $endlist
 $component P10
  JST_PH_2
@@ -81,37 +67,39 @@ $endlist
 $component P17
  JST_PH_2
 $endlist
+$component P100
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
+$component P101
+ CONN_TERM_BLOCK_2POS_3P5MM
+$endlist
 $endfootprintlist
 }
 { Pin List by Nets
-Net 1 "/STRIP1_12V" "STRIP1_12V"
- P11 2
- P14 1
-Net 2 "GND" "GND"
- C103 2
- C101 2
- C102 2
- C104 2
- P3 1
- P4 2
- P17 2
- P16 2
-Net 3 "/STRIP_GND" "STRIP_GND"
- P16 1
- P17 1
- P14 2
- P13 2
-Net 4 "+24V" "+24V"
- P3 2
- P4 1
- P11 1
- P10 1
- C103 1
- C102 1
- C101 1
- C104 1
-Net 5 "/STRIP2_12V" "STRIP2_12V"
+Net 1 "/STRIP2_12V" "STRIP2_12V"
  P13 1
  P10 2
+Net 2 "+24V" "+24V"
+ C102 1
+ P101 1
+ P100 2
+ C101 1
+ P10 1
+ P11 1
+Net 3 "GND" "GND"
+ P16 2
+ P17 2
+ C102 2
+ P100 1
+ P101 2
+ C101 2
+Net 4 "/STRIP_GND" "STRIP_GND"
+ P13 2
+ P17 1
+ P16 1
+ P14 2
+Net 5 "/STRIP1_12V" "STRIP1_12V"
+ P14 1
+ P11 2
 }
 #End
