@@ -1,4 +1,4 @@
-EESchema Schematic File Version 2  date Sat 20 Oct 2012 10:36:32 PM CDT
+EESchema Schematic File Version 2  date Fri 02 Nov 2012 06:41:33 AM CDT
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -37,7 +37,7 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "In Cabinet LED Breakout"
-Date "21 oct 2012"
+Date "2 nov 2012"
 Rev ""
 Comp ""
 Comment1 ""
@@ -45,24 +45,6 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-$Comp
-L CONN_2 P4
-U 1 1 508349BE
-P 6850 2200
-F 0 "P4" V 6800 2200 40  0000 C CNN
-F 1 "CONN_2" V 6900 2200 40  0000 C CNN
-	1    6850 2200
-	1    0    0    -1  
-$EndComp
-$Comp
-L CONN_2 P3
-U 1 1 508349CB
-P 4250 2200
-F 0 "P3" V 4200 2200 40  0000 C CNN
-F 1 "CONN_2" V 4300 2200 40  0000 C CNN
-	1    4250 2200
-	-1   0    0    1   
-$EndComp
 $Comp
 L +24V #PWR01
 U 1 1 508349F6
@@ -143,4 +125,26 @@ Wire Notes Line
 	5600 2300 5600 2350
 Wire Notes Line
 	5600 2300 5550 2300
+$Comp
+L CONN_TERM_BLOCK_2POS_3P5MM P1001
+U 1 1 5093B0DA
+P 4250 2200
+F 0 "P1001" V 4250 2200 40  0000 C CNN
+F 1 "CONN_TERM_BLOCK_2POS_3P5MM" H 4200 2450 40  0001 C CNN
+F 4 "A98036-ND" H 4250 1900 60  0001 C CNN "PN"
+F 5 "TRM_BLK_2" H 3950 2000 40  0000 L BNN "Name"
+	1    4250 2200
+	-1   0    0    1   
+$EndComp
+$Comp
+L CONN_TERM_BLOCK_2POS_3P5MM P1002
+U 1 1 5093B0F5
+P 6850 2200
+F 0 "P1002" V 6850 2200 40  0000 C CNN
+F 1 "CONN_TERM_BLOCK_2POS_3P5MM" H 6800 2450 40  0001 C CNN
+F 4 "A98036-ND" H 6850 1900 60  0001 C CNN "PN"
+F 5 "TRM_BLK_2" H 6550 2000 40  0000 L BNN "Name"
+	1    6850 2200
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
